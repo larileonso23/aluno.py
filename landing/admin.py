@@ -5,3 +5,4 @@ from landing.models import Aluno
 admin.site.register(Aluno)
 
 
+

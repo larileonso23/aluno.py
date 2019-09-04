@@ -1,9 +1,8 @@
 from django.db import models
 
-
 # Create your models here.
 
-class Aluno(models.Model):
+class Professor(models.Model):
     nome = models.CharField(
         max_length=255,
     )
@@ -14,7 +13,4 @@ class Aluno(models.Model):
         max_length=255,
     )
     def __str__(self):
-        return self.nome
-
-
-
+        return 'Professor: ' + self.nome
