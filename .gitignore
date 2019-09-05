@@ -4,3 +4,6 @@ env
 venv
 vscode
 .vscode
+
+db.sqlite3
+/db.sqlite3
